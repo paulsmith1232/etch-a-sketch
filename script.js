@@ -92,7 +92,7 @@ function randomInt(max = 255) {
 }
 
 
-resetButton.addEventListener('click', () => createGrid(prompt('Enter a number', 16)));
+resetButton.addEventListener('click', () => createGrid(prompt('Enter a number to change grid size', 16)));
 createGrid();
 
 
